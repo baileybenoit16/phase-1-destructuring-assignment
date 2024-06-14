@@ -80,7 +80,7 @@ describe("index.js", () => {
     expect(partner).to.exist
     expect(partner).to.equal("Kermit")
   })
-  
+
   it("Object: uses destructuring to assign songs 2 and 4, and Kermit's job and partner", () => {
     expect(song2).to.exist
     expect(song2).to.equal("Moving Right Along")
